@@ -1,2 +1,1 @@
 # course-projects
-Tewkill course
