@@ -1,6 +1,9 @@
 # Files created by Intellij (globally)
-$ cat  idea/
+.*
+!/.idea/
 
 #Files created by Intellij (Local for CoursePractice project)
-$ cat /CoursePractice/idea
-$ cat /CoursePractice/out
+.*
+!/CoursePractice/.idea
+.*
+!/CoursePractice/out
