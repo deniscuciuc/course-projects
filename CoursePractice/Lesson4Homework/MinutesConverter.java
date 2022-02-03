@@ -1,19 +1,32 @@
 package Lesson4Homework;
+import java.util.Scanner;
 
 public class MinutesConverter {
+
+    static long Year = 1,
+                Days = 365;
     public static void main(String[] args) {
-        long Minutes = 5;
-        final double Days = 365;
-        final double Years = 1;
 
-        double  MinutesInHour = 60,
-                MinutesInDay = MinutesInHour * 24,
-                MinutesInYear = MinutesInDay * Days,
-                ConvertMinutestoDays = Minutes / MinutesInDay,
-                ConvertMinutestoYears = Minutes / MinutesInYear;
+        // Minutes in x variable
+        double  resultDay,
+                resultYear,
+                hour = 60,
+                day = hour * 24,
+                year = day * Days;
 
-        System.out.println(Minutes + " minutes in days is " + ConvertMinutestoDays);
-        System.out.println(Minutes + " minutes in years is " + ConvertMinutestoYears);
+
+
+        Scanner userInput = new Scanner(System.in);
+        System.out.println("How many minutes you want to convert to days and years? ");
+
+        int Minutes = userInput.nextInt();
+        userInput.close();
+
+        resultDay = (double)Minutes / day;
+        resultYear = (double)Minutes / year;
+
+        System.out.println(Minutes + " minutes is " + resultDay + " day");
+        System.out.println(Minutes + " minutes is " + resultYear + " year");
 
     }
 }
