@@ -1,9 +1,1 @@
-# Files created by Intellij (globally)
-.*
-!/.idea/
-
-#Files created by Intellij (Local for CoursePractice project)
-.*
-!/CoursePractice/.idea
-.*
-!/CoursePractice/out
+.idea/
