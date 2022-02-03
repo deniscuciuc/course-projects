@@ -1,0 +1,4 @@
+# Ignore folders and files created by Intellij
+.idea/
+.CoursePractice/.idea/
+.CoursePractice/out/
