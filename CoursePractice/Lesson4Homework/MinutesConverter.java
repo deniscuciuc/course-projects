@@ -1,6 +1,7 @@
 package Lesson4Homework;
 import java.util.Scanner;
 
+
 public class MinutesConverter {
 
     static long Year = 1,
@@ -27,6 +28,7 @@ public class MinutesConverter {
 
         System.out.println(Minutes + " minutes is " + resultDay + " day");
         System.out.println(Minutes + " minutes is " + resultYear + " year");
+
 
     }
 }
