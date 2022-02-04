@@ -18,6 +18,8 @@ public class InputOddEven {
             System.out.print("positive ");
             if (number > 1_000_000) {
                 System.out.print("large");
+            } else {
+                System.out.print("small");
             }
         } else if (number <= 1) {
             System.out.print("small ");
