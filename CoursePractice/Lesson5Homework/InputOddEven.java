@@ -2,7 +2,7 @@ package Lesson5Homework;
 import java.util.Scanner;
 
 
-public class InputFloatCheck {
+public class InputOddEven {
     public static void main(String[] args) {
         float number;
 

@@ -2,7 +2,7 @@ package Lesson5Homework;
 import java.util.Scanner;
 
 
-public class InputRectangle {
+public class RectangleArea {
     public static void main(String[] args) {
 
         double FIRST_RECTANGLE_AREA, SECOND_RECTANGLE_AREA;
@@ -35,7 +35,7 @@ public class InputRectangle {
         double SECOND_RECTANGLE_HEIGHT = SECOND_RECTANGLE_VALUES[1];
 
         System.out.println(FIRST_RECTANGLE_WIDTH + " width, " + FIRST_RECTANGLE_HEIGHT + " height, " + " - First rectangle");
-        System.out.println(SECOND_RECTANGLE_WIDTH+ " width, " + SECOND_RECTANGLE_HEIGHT + " height, " + " - Second rectangle");
+        System.out.println(SECOND_RECTANGLE_WIDTH + " width, " + SECOND_RECTANGLE_HEIGHT + " height, " + " - Second rectangle");
 
         FIRST_RECTANGLE_AREA = FIRST_RECTANGLE_WIDTH * FIRST_RECTANGLE_HEIGHT;
         SECOND_RECTANGLE_AREA = SECOND_RECTANGLE_WIDTH * SECOND_RECTANGLE_HEIGHT;
