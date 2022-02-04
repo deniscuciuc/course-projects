@@ -10,9 +10,9 @@ public class MinutesConverter {
         // Minutes in x variable
         double  resultDay,
                 resultYear,
-                hour = 60,
-                day = hour * 24,
-                year = day * Days;
+                hour = 60, // or MINUTES_IN_HOUR
+                day = hour * 24, // or MINUTES_IN_DAY
+                year = day * Days; // or MINUTES_IN_YEAR
 
 
 
