@@ -6,11 +6,11 @@ public class InputOddEven {
     public static void main(String[] args) {
         float number;
 
-        Scanner INPUT_FLOAT = new Scanner(System.in);
+        Scanner inputFloat = new Scanner(System.in);
         System.out.println("Enter a floating-point number here: ");
 
-        number = INPUT_FLOAT.nextFloat();
-        INPUT_FLOAT.close();
+        number = inputFloat.nextFloat();
+        inputFloat.close();
 
         if (number == 0) {
             System.out.println("zero");

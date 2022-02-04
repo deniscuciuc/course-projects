@@ -8,7 +8,7 @@ public class MinutesConverter {
                 Days = 365;
     public static void main(String[] args) {
 
-        // Minutes in x variable
+        // minutes in x variable
         double  resultDay,
                 resultYear,
                 hour = 60, // or MINUTES_IN_HOUR
@@ -20,14 +20,14 @@ public class MinutesConverter {
         Scanner userInput = new Scanner(System.in);
         System.out.println("How many minutes you want to convert to days and years? ");
 
-        int Minutes = userInput.nextInt();
+        int minutes = userInput.nextInt();
         userInput.close();
 
-        resultDay = (double)Minutes / day;
-        resultYear = (double)Minutes / year;
+        resultDay = (double)minutes / day;
+        resultYear = (double)minutes / year;
 
-        System.out.println(Minutes + " minutes is " + resultDay + " day");
-        System.out.println(Minutes + " minutes is " + resultYear + " year");
+        System.out.println(minutes + " minutes is " + resultDay + " day");
+        System.out.println(minutes + " minutes is " + resultYear + " year");
 
 
     }
