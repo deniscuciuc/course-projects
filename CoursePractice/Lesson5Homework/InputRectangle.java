@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class InputRectangle {
     public static void main(String[] args) {
 
-        int FIRST_RECTANGLE_AREA, SECOND_RECTANGLE_AREA;
+        double FIRST_RECTANGLE_AREA, SECOND_RECTANGLE_AREA;
 
         Scanner FIRST_RECTANGLE = new Scanner(System.in);
-        int[] FIRST_RECTANGLE_VALUES = new int[2];
+        double[] FIRST_RECTANGLE_VALUES = new double[2];
 
 
         System.out.println("Enter width and height for the first rectangle: ");
@@ -17,7 +17,7 @@ public class InputRectangle {
         }
 
         Scanner SECOND_RECTANGLE = new Scanner(System.in);
-        int[] SECOND_RECTANGLE_VALUES = new int[2];
+        double[] SECOND_RECTANGLE_VALUES = new double[2];
 
         System.out.println("Enter width and height for the second rectangle: ");
         for (int i = 0; i < SECOND_RECTANGLE_VALUES.length; i ++) {
@@ -29,10 +29,10 @@ public class InputRectangle {
         SECOND_RECTANGLE.close();
 
 
-        int FIRST_RECTANGLE_WIDTH = FIRST_RECTANGLE_VALUES[0];
-        int FIRST_RECTANGLE_HEIGHT = FIRST_RECTANGLE_VALUES[1];
-        int SECOND_RECTANGLE_WIDTH = SECOND_RECTANGLE_VALUES[0];
-        int SECOND_RECTANGLE_HEIGHT = SECOND_RECTANGLE_VALUES[1];
+        double FIRST_RECTANGLE_WIDTH = FIRST_RECTANGLE_VALUES[0];
+        double FIRST_RECTANGLE_HEIGHT = FIRST_RECTANGLE_VALUES[1];
+        double SECOND_RECTANGLE_WIDTH = SECOND_RECTANGLE_VALUES[0];
+        double SECOND_RECTANGLE_HEIGHT = SECOND_RECTANGLE_VALUES[1];
 
         System.out.println(FIRST_RECTANGLE_WIDTH + " width, " + FIRST_RECTANGLE_HEIGHT + " height, " + " - First rectangle");
         System.out.println(SECOND_RECTANGLE_WIDTH+ " width, " + SECOND_RECTANGLE_HEIGHT + " height, " + " - Second rectangle");
