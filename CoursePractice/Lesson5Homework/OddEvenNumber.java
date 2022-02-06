@@ -1,7 +1,7 @@
 package Lesson5Homework;
 import java.util.Scanner;
 
-public class InputNumberCheck {
+public class OddEvenNumber {
     public static void main(String[] args) {
 
         Scanner inputNumber = new Scanner(System.in);
