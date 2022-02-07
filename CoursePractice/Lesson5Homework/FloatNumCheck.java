@@ -21,10 +21,12 @@ public class FloatNumCheck {
             } else {
                 System.out.print("small");
             }
-        } else if (number <= 1) {
-            System.out.print("small ");
-            if (number < 0) {
-                System.out.print("negative");
+        } else if (number < 0) {
+            System.out.print ("negative ");
+            if (number <= - 1_000_000) {
+                System.out.print ("large ");
+            } else {
+                System.out.print ("small");
             }
         } else {
             System.out.println("Non expected number");
