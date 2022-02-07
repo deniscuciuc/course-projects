@@ -1,17 +1,21 @@
 package Lesson6Homework;
-
-import java.util.Objects;
+import java.util.Scanner;
 
 public class SwitchTernary {
     public static void main (String[] args) {
-        int colorCode = 101;
-        String color = null;
-        colorCode = (Objects.equals (color, "Yellow")) ? 100
-                : (Objects.equals (color, "Green")) ? 101
-                : (Objects.equals (color, "Red")) ? 102
-                : 0;
+        Scanner colorCodeObj = new Scanner (System.in);
+        System.out.println ("Please type here the color code (101,102 or 103 avaible): ");
 
-        System.out.println("Color ---&gt;"+color);
+        int colorCode = colorCodeObj.nextInt();
+        colorCodeObj.close();
+
+        String color = colorCode == 100 ? "Yellow" : colorCode == 101 ? "Green" : colorCode == 102 ? "Red" : "Invalid";
+
+        if (colorCode != 100 && colorCode != 101 && colorCode != 102) {
+            System.out.println("You have selected " + color + " color! Please enter a valid code!");
+        } else {
+            System.out.println("You have selected: " + color);
+        }
 
     }
 }
