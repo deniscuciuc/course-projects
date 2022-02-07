@@ -12,7 +12,6 @@ public class NestedLoop {
         float temperature = inputTemp.nextFloat();
         inputTemp.close();
 
-
         if(temperature > maxTemp) {
             System.out.println("Porridge is too hot.");
         } else if (temperature < minTemp) {
