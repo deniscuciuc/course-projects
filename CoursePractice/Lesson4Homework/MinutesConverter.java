@@ -16,7 +16,6 @@ public class MinutesConverter {
                 year = day * Days; // or MINUTES_IN_YEAR
 
 
-
         Scanner userInput = new Scanner(System.in);
         System.out.println("How many minutes you want to convert to days and years? ");
 
