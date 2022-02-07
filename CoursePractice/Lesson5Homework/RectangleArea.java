@@ -24,22 +24,12 @@ public class RectangleArea {
             secondRectangleValues[i] = secondRectangle.nextInt();
         }
 
-
         firstRectangle.close();
         secondRectangle.close();
 
 
-        double firstRectangleWidth = firstRectangleValues[0];
-        double firstRectangleHeight = firstRectangleValues[1];
-        double secondRectangleWidth = secondRectangleValues[0];
-        double secondRectangleHeight = secondRectangleValues[1];
-
-        System.out.println(firstRectangleWidth + " width, " + firstRectangleHeight + " height, " + " - First rectangle");
-        System.out.println(secondRectangleWidth + " width, " + secondRectangleHeight + " height, " + " - Second rectangle");
-
-        firstRectangleArea = firstRectangleWidth * firstRectangleHeight;
-        secondRectangleArea = secondRectangleWidth * secondRectangleHeight;
-
+        firstRectangleArea = firstRectangleValues[0] * firstRectangleValues[1];
+        secondRectangleArea = secondRectangleValues[0] * secondRectangleValues[1];
 
         if (firstRectangleArea > secondRectangleArea) {
             System.out.println("First rectangle area is greater then the second");
