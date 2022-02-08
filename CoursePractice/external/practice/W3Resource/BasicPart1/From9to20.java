@@ -42,7 +42,7 @@ public class From9to20 {
         System.out.println("Task 10: ");
 
         double x = 4.0 * (1 - (1.0 / 3) + (1.0 / 5) - (1.0 / 7) + (1.0 / 9) - (1.0 / 11));
-        System.out.println (x);
+        System.out.println(x);
     }
 
 
@@ -79,14 +79,14 @@ public class From9to20 {
         Scanner inputNumbers = new Scanner(System.in);
         double[] userNumbers = new double[3];
 
-        System.out.print("Type here three numbers to take average: ");
+        System.out.println("Type here three numbers to take average: ");
         for (int i = 0; i < userNumbers.length; i++) {
             userNumbers[i] = inputNumbers.nextDouble();
         }
         inputNumbers.close();
 
         double average = (userNumbers[0] * userNumbers[1] * userNumbers[2]) / userNumbers.length;
-        System.out.print("Average number is: " + average);
+        System.out.println("Average number is: " + average);
     }
 
 
