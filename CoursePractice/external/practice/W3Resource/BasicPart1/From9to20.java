@@ -85,7 +85,7 @@ public class From9to20 {
         }
         inputNumbers.close();
 
-        double average = (userNumbers[0] * userNumbers[1] * userNumbers[2]) / 2;
+        double average = (userNumbers[0] * userNumbers[1] * userNumbers[2]) / userNumbers.length;
         System.out.print("Average number is: " + average);
     }
 
@@ -108,6 +108,6 @@ public class From9to20 {
     }
 
     static void task14() {
-        
+
     }
 }
