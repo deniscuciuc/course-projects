@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class DoWhileLoop {
     public static void main(String[] args) {
-        boolean stop = false;
+        boolean stop = true;
 
         do {
             Scanner sumObject = new Scanner(System.in);
@@ -23,11 +23,13 @@ public class DoWhileLoop {
             String reply = askUser.nextLine();
 
             if (reply.equals("NO") || reply.equals("No")) {
-                stop = true;
+                stop = false;
             }
 
 
 
-        } while (!stop);
+
+        } while (stop);
+
     }
 }
