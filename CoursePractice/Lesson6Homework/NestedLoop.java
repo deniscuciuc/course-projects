@@ -16,7 +16,7 @@ public class NestedLoop {
             System.out.println("Porridge is too hot.");
         } else if (temperature < minTemp) {
             System.out.println("Porridge is too cold.");
-        } else if (temperature >= minTemp && temperature <= maxTemp) {
+        } else {
             System.out.println("Porridge is just right.");
         }
 
