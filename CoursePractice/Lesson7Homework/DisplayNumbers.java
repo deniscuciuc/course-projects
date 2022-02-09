@@ -13,6 +13,7 @@ public class DisplayNumbers {
             if (j % 10 == 0) {
                 System.out.println();
             }
+
         }
     }
 }
