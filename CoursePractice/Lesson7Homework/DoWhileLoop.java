@@ -22,7 +22,7 @@ public class DoWhileLoop {
             System.out.println("If you want to repeat operation type - YES, if not - NO: ");
             String reply = askUser.nextLine();
 
-            if (reply.equals("NO") || reply.equals("No")) {
+            if (reply.equalsIgnoreCase("No")) {
                 stop = false;
             }
 
