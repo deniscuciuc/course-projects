@@ -4,7 +4,7 @@ package external.methods.Arrays;
  * Here are my trying to make an usefull methods to manipulate arrays
  * @author deniscuciuc
  */
-public class ArrayCalculator {
+public class CheckAndCalculator {
     public static void main (String[] args) {
 
         int[] intArray = {5, 6, 7, 9, 33};
@@ -17,14 +17,19 @@ public class ArrayCalculator {
 
         sumOfOneDimensionalIntArray(intArray);
         sumOfOneDimensionalDoubleArray(doubleArray);
-        averageOfOneDimensionalDoubleArray(doubleArray);
-        numberOfEvenAndOddNumbersOneDimensionalIntArray(intArray);
-        numberOfEvenAndOddNumbersTwoDimensionalIntArray(intTwoDimensionalArray);
         sumOfTwoDimensionalIntArray(intTwoDimensionalArray);
         sumOfTwoDimensionalDoubleArray(doubleTwoDimensionalArray);
+
+        averageOfOneDimensionalDoubleArray(doubleArray);
         averageOfTwoDimensionalIntArray(intTwoDimensionalArray);
         averageOfTwoDimensionalDoubleArray(doubleTwoDimensionalArray);
+
         numberOfEvenAndOddNumbersTwoDimensionalIntArray(intTwoDimensionalArray);
+        numberOfEvenAndOddNumbersOneDimensionalIntArray(intArray);
+        numberOfEvenAndOddNumbersTwoDimensionalIntArray(intTwoDimensionalArray);
+
+        checkIfExistsOneDimensionalIntArray(intArray, 5);
+        checkIfExistsTwoDimensionalIntArray(intTwoDimensionalArray, 7);
 
 
     }
@@ -134,5 +139,42 @@ public class ArrayCalculator {
         }
         average = sum / (double)count;
         System.out.println("Avg of two dimensional double array is: " + average);
+    }
+    // This can find an element from 1d array
+    static boolean checkIfExistsOneDimensionalIntArray (int[] array, int elementToCheck) {
+        boolean exists = false;
+
+        for (int i : array) {
+            if (i == elementToCheck) {
+                exists = true;
+                break;
+            }
+        }
+        if (exists == true) {
+            System.out.println("It's true (1d array)");
+        } else {
+            System.out.println("It's false (1d array)");
+        }
+        return exists;
+    }
+
+    // This can find an element from 2d array
+    static boolean checkIfExistsTwoDimensionalIntArray (int[][] array, int elementToCheck) {
+        boolean exists = false;
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                if (array[i][j] == elementToCheck) {
+                    exists = true;
+                    break;
+                }
+
+            }
+        }
+        if (exists == true) {
+            System.out.println("It's true (2d array)");
+        } else {
+            System.out.println("It's false (2d array)");
+        }
+        return exists;
     }
 }
