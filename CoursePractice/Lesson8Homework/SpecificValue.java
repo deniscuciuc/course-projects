@@ -1,9 +1,31 @@
 package Lesson8Homework;
+import java.util.Scanner;
 
 public class SpecificValue {
     public static void main (String[] args) {
-        int[] array = {5, 6, 7, 9, 33};
-        checkIfExistsOneDimensionalIntArray(array, 5);
+        Scanner intArrayObj = new Scanner(System.in);
+        System.out.println("Type here how many values you want to be in array: ");
+        int arrayLength = intArrayObj.nextInt();
+
+
+        Scanner inputArrayValues = new Scanner(System.in);
+        int arrayValues[] = new int[arrayLength];
+
+        System.out.println("Now enter here int values of your array: ");
+        for (int i = 0; i < arrayLength; i++) {
+            arrayValues[i] = inputArrayValues.nextInt();
+        }
+
+
+        Scanner elementToCheckObj = new Scanner(System.in);
+        System.out.println("What int number do you want to check if this exists in your array?");
+        int intToCheckInArray = elementToCheckObj.nextInt();
+
+        inputArrayValues.close();
+        intArrayObj.close();
+        elementToCheckObj.close();
+
+        checkIfExistsOneDimensionalIntArray(arrayValues, intToCheckInArray);
 
     }
 
