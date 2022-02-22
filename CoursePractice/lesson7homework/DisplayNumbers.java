@@ -1,4 +1,4 @@
-package Lesson7Homework;
+package lesson7homework;
 
 public class DisplayNumbers {
     public static void main (String[] args) {

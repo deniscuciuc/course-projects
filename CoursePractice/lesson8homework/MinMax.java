@@ -1,4 +1,4 @@
-package Lesson8Homework;
+package lesson8homework;
 
 public class MinMax {
     public static void main (String[] args) {

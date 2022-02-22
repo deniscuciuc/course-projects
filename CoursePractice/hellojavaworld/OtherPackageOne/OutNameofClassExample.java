@@ -1,4 +1,4 @@
-package HelloJavaWorld.OtherPackageOne;
+package hellojavaworld.OtherPackageOne;
 
 public class OutNameofClassExample {
     public static void main(String[] args) {

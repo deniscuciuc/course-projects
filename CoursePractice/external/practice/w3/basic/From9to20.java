@@ -1,4 +1,4 @@
-package external.practice.W3Resource.BasicPart1;
+package external.practice.w3.basic;
 import static java.lang.Math.pow;
 import java.util.Scanner;
 

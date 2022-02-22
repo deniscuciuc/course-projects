@@ -1,4 +1,4 @@
-package Lesson8Homework;
+package lesson8homework;
 import java.util.Scanner;
 
 public class SpecificValue {

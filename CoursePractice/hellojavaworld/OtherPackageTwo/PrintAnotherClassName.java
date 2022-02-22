@@ -1,4 +1,4 @@
-package HelloJavaWorld.OtherPackageTwo;
+package hellojavaworld.OtherPackageTwo;
 
 public class PrintAnotherClassName {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Lesson6Homework;
+package lesson6homework;
 
 public class OutputNumbers {
     public static void main (String[] args) {

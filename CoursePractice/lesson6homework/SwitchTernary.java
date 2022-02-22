@@ -1,4 +1,4 @@
-package Lesson6Homework;
+package lesson6homework;
 import java.util.Scanner;
 
 public class SwitchTernary {

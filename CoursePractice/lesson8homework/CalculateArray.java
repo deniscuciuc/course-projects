@@ -1,6 +1,4 @@
-package Lesson8Homework;
-
-import java.util.Scanner;
+package lesson8homework;
 
 public class CalculateArray {
     public static void main(String[] args) {
@@ -12,7 +10,7 @@ public class CalculateArray {
         numberOfEvenAndOddNumbersOneDimensionalIntArray(oneDimensionalArray);
 
         System.out.println("Here are sum, average number and the number of even and odd elements for 12 array:");
-        averageAndSumOfTwoDimensionalIntArray(twoDimensionalArray);
+        calculateAvgAndSum(twoDimensionalArray);
         numberOfEvenAndOddNumbersTwoDimensionalIntArray(twoDimensionalArray);
 
     }
@@ -41,7 +39,7 @@ public class CalculateArray {
         System.out.println("Odd numbers: " + odd);
     }
 
-    static void averageAndSumOfTwoDimensionalIntArray (int[][] array) {
+    static void calculateAvgAndSum (int[][] array) {
         int sum = 0, count = 0;
         double average = 0;
         for (int i = 0; i < array.length; i++) {

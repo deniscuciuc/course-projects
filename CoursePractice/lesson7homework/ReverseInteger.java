@@ -1,4 +1,4 @@
-package Lesson7Homework;
+package lesson7homework;
 import java.util.Scanner;
 
 public class ReverseInteger {
