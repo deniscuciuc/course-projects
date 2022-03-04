@@ -1,5 +1,6 @@
 package lesson9homework;
 import java.util.Scanner;
+
 public class Area {
     private int rectangleLength, getRectangleWidth;
 
@@ -14,7 +15,7 @@ public class Area {
 }
 
 
-class main {
+class areaMain {
     public static void main(String[] args) {
         int length, width, area;
         Area areaValues = new Area();
