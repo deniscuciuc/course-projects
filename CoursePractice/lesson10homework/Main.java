@@ -21,7 +21,7 @@ public class Main {
                 System.out.println("Please, select existing option...");
             } else {
                 switch (userChoice) {
-                    case 1: // done
+                    case 1:
                         System.out.println("\033[01mExecuting first task...\033[0m");
                         StoreMonths.storeMonths();
                         break;
