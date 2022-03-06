@@ -21,12 +21,11 @@ public class Main {
                 System.out.println("Please, select existing option...");
             } else {
                 switch (userChoice) {
-                    case 1:
+                    case 1: // done
                         System.out.println("\033[01mExecuting first task...\033[0m");
                         StoreMonths.storeMonths();
                         break;
                     case 2:
-                        
                         System.out.println("\033[01mExecuting second task...\033[0m");
                         CheckDay.checkDay();
                         break;
