@@ -30,5 +30,6 @@ class areaMain {
         areaValues.setDim(length, width);
         area = areaValues.getArea();
         System.out.println("Area of rectangle is: " + area);
+        
     }
 }
