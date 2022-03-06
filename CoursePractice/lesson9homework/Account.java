@@ -16,13 +16,12 @@ public class Account {
 
     public static void main(String[] args) {
         int attemptsCount = 1;
-        boolean pinVerify = false;
+        boolean pinVerify = true;
         System.out.println("\033[01mLogging in to your account...\033[0m");
-        while (!pinVerify) {
+        while (pinVerify) {
             if (getPinFromUser() == pinCode) {
                 System.out.println("Correct, welcome back.");
-                pinVerify = true;
-                break;
+                pinVerify = false;
             } else if (attemptsCount < 3) {
                 System.out.println("Incorrect, try again.");
                 attemptsCount++;
