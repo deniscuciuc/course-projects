@@ -1,6 +1,6 @@
 package lesson10homework;
 
-public class StoreMonths extends Main {
+public class StoreMonths {
     private enum MonthsOfYear {
         JANUARY,
         FEBRUARY,

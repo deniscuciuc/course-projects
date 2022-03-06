@@ -1,6 +1,6 @@
 package lesson10homework;
 
-public class StringConverter extends Main {
+public class StringConverter {
 
     public static void stringConverter() {
         Boolean booleanWrapperFromString = new Boolean("tRue");
