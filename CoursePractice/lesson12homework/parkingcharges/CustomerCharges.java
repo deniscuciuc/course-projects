@@ -3,11 +3,11 @@ package lesson12homework.parkingcharges;
 public class CustomerCharges {
     private String name;
     private int parkingTime;
-    private final float MIN_PRICE = 2;
-    private final float HOUR_PRICE = 0.50f;
-    private final float MAX_PRICE = 10;
-    public final int MIN_TIME = 3;
-    public final int MAX_TIME = 24;
+    private static final float MIN_PRICE = 2;
+    private static final float HOUR_PRICE = 0.50f;
+    private static final float MAX_PRICE = 10;
+    public static final int MIN_TIME = 3;
+    public static final int MAX_TIME = 24;
 
     public CustomerCharges(String name, int parkingTime) {
         this.name = name;
