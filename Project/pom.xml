@@ -113,7 +113,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.example.whowantstobemillionaire/com.example.whowantstobemillionaire.HelloApplication
+                                com.example.whowantstobemillionaire/com.example.whowantstobemillionaire.WhoWantsToBeMillionaireApp
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
