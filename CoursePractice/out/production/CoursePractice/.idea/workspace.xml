@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="40cefa92-ec21-4726-9b52-b8167f1a4bb9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson15homework/invoice/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15homework/invoice/InvoiceApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson12homework/parkingcharges/CustomerCharges.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson12homework/parkingcharges/CustomerCharges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson12homework/parkingcharges/ParkingChargesApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson12homework/parkingcharges/ParkingChargesApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CoursePractice/lesson12homework/parkingcharges/ParkingChargesApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoursePractice/lesson12homework/parkingcharges/ParkingChargesApp.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25nzUrYK99NUFq22EA9vh7rAwbP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.InvoiceApp">
+    <configuration name="InvoiceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson15homework.invoice.InvoiceApp" />
+      <module name="CoursePractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson15homework.invoice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="external.thinkinginjava.exercises.test1.Main" />
+      <module name="CoursePractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="external.thinkinginjava.exercises.test1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson12homework.primenumbers.Main" />
+      <module name="CoursePractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson12homework.primenumbers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson10homework.Main" />
+      <module name="CoursePractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson10homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingChargesApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson12homework.parkingcharges.ParkingChargesApp" />
+      <module name="CoursePractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson12homework.parkingcharges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.InvoiceApp" />
+        <item itemvalue="Application.ParkingChargesApp" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40cefa92-ec21-4726-9b52-b8167f1a4bb9" name="Changes" comment="" />
+      <created>1646177660169</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646177660169</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
