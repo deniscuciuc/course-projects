@@ -1,10 +1,20 @@
 package com.example.whowantstobemillionaire;
 
+import com.example.whowantstobemillionaire.levels.Answer;
+import com.example.whowantstobemillionaire.levels.Question;
+
+import java.util.ArrayList;
+
 public class ConsoleGame {
     public void launchGame() {
-        /* TODO: here write a while loop (all game before user will stop it or will win or lose the game)
-         *  then write nested switch and take from user every value
-         */
+
+        boolean isAnswerCorrect = true;
+        int currentLevel = 1;
+        while (isAnswerCorrect && currentLevel <= 5) {
+
+        }
+
+
 
     }
 }
