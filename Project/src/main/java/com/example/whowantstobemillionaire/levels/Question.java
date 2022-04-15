@@ -36,6 +36,9 @@ public class Question {
         this.score = score;
     }
 
+    public void printAllAnswers() {
+        System.out.println(getQuestion());
+    }
 
 
 
