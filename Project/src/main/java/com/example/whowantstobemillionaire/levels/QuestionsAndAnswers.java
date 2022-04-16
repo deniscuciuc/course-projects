@@ -180,6 +180,7 @@ public class QuestionsAndAnswers {
         System.out.println();
         System.out.println("≫ " + question.getQuestion());
 
+
     }
 
 }
