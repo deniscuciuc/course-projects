@@ -4,10 +4,11 @@ public class Question {
     private String question;
     private int level;
     private int score;
-
+    private Answer[] answers;
 
     public Question(String question, Answer[] answers, int level, int score) {
         this.question = question;
+        this.answers = answers;
         this.level = level;
         this.score = score;
     }
@@ -35,6 +36,8 @@ public class Question {
     public void setScore(int score) {
         this.score = score;
     }
+
+    public Answer[] getAnswers() { return answers; }
 
 
 
