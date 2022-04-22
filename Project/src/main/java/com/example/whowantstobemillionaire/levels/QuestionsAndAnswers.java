@@ -156,9 +156,6 @@ public class QuestionsAndAnswers {
             new Question("Ce este butterscotch?", ANSWERS_4_LEVEL_5, 1, 100),
     };
 
-
-
-    // TODO: method gets current level and returns an object for print method
     public Question getQuestionByLevel(int level) {
         return switch (level) {
             case 2 -> getRandomQuestion(LEVEL_2);
@@ -169,18 +166,21 @@ public class QuestionsAndAnswers {
         };
     }
 
-
     private Question getRandomQuestion(Question[] question) {
         return question[new Random().nextInt(question.length)];
     }
 
-    public void printQuestionsAndAnswers(Question question, int currentLevel) {
+    public void printLevel(Question question, int currentLevel) {
         Answer[] answers = question.getAnswers();
-        System.out.println("● Nivelul " + currentLevel);
         System.out.println();
+        System.out.println("● Nivelul " + currentLevel);
         System.out.println("⋙ " + question.getQuestion());
         for (Answer answer : answers) {
             System.out.println("    " + answer.getAnswerOption() + ": " + answer.getAnswer());
         }
+    }
+
+    public boolean verifyAnswer(Question question, String answer) {
+        return answer.equalsIgnoreCase(question.getCorrectAnswer(question.getAnswers()).getAnswerOption());
     }
 }

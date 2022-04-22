@@ -39,6 +39,29 @@ public class Question {
 
     public Answer[] getAnswers() { return answers; }
 
+    // try to use ternary
+    public Answer getCorrectAnswer(Answer[] answers) {
+        for (Answer correctAnswer : answers) {
+            if (correctAnswer.isCorrect()) {
+                return correctAnswer;
+            }
+        }
+        return null;
+    }
+
+    // try to use ternary
+    public Answer[] getWrongAnswers(Answer[] answers) {
+        Answer[] wrongAnswers = new Answer[3];
+        int i = 0;
+        for (Answer wrongAnswer : answers) {
+            if (!wrongAnswer.isCorrect()) {
+                wrongAnswers[i] = wrongAnswer;
+                i++;
+            }
+        }
+        return wrongAnswers;
+    }
+
 
 
 

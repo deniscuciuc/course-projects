@@ -8,21 +8,31 @@ import java.util.Scanner;
 public class ConsoleGame {
     public void launchGame() {
         boolean isAnswerCorrect = true;
-        int currentLevel = 1;
+        int currentLevel = 1, currentScore = 0;
 
-        QuestionsAndAnswers test = new QuestionsAndAnswers();
+        QuestionsAndAnswers questionsAndAnswers = new QuestionsAndAnswers();
         Question currentLevelObj;
 
         Scanner answerObj = new Scanner(System.in);
-        String answer;
+        String userAnswer;
 
         System.out.println("=== Cine vrea sa fie milionar? ===");
         while (isAnswerCorrect && currentLevel <= 5) {
-            currentLevelObj  = test.getQuestionByLevel(currentLevel);
-            test.printQuestionsAndAnswers(currentLevelObj, currentLevel);
-            answer = answerObj.nextLine();
-            System.out.println("Raspunsul tau este: " + answer);
+            currentLevelObj  = questionsAndAnswers.getQuestionByLevel(currentLevel);
+            questionsAndAnswers.printLevel(currentLevelObj, currentLevel);
+            System.out.println();
+            System.out.print("Raspunsul tau este: ");
+            userAnswer = answerObj.nextLine();
+            if (questionsAndAnswers.verifyAnswer(currentLevelObj, userAnswer)) {
+                currentScore += currentLevelObj.getScore();
+                System.out.println("Raspuns corect! (◕‿◕) Scorul curent: " + currentScore);
+            } else {
+                System.out.println("Raspuns gresit! (￢_￢)  Scorul acumulat: " + currentScore);
+                return;
+            }
             currentLevel++;
         }
+        System.out.println();
+        System.out.println("Felicitări! Ați câștigat jocul.");
     }
 }
