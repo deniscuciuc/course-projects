@@ -1,5 +1,6 @@
 package com.example.whowantstobemillionaire;
 
+import com.example.whowantstobemillionaire.help.HelpAnswer;
 import com.example.whowantstobemillionaire.levels.Question;
 import com.example.whowantstobemillionaire.levels.QuestionsAndAnswers;
 
@@ -20,6 +21,8 @@ public class ConsoleGame {
         while (isAnswerCorrect && currentLevel <= 5) {
             currentLevelObj  = questionsAndAnswers.getQuestionByLevel(currentLevel);
             questionsAndAnswers.printLevel(currentLevelObj, currentLevel);
+            System.out.println();
+            HelpAnswer.printHelpMenu();
             System.out.println();
             System.out.print("Raspunsul tau este: ");
             userAnswer = answerObj.nextLine();

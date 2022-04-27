@@ -1,5 +1,7 @@
 package com.example.whowantstobemillionaire.levels;
 
+import java.util.Random;
+
 public class Question {
     private String question;
     private int level;
@@ -39,7 +41,7 @@ public class Question {
 
     public Answer[] getAnswers() { return answers; }
 
-    // try to use ternary
+
     public Answer getCorrectAnswer(Answer[] answers) {
         for (Answer correctAnswer : answers) {
             if (correctAnswer.isCorrect()) {
@@ -49,7 +51,7 @@ public class Question {
         return null;
     }
 
-    // try to use ternary
+
     public Answer[] getWrongAnswers(Answer[] answers) {
         Answer[] wrongAnswers = new Answer[3];
         int i = 0;
@@ -62,12 +64,9 @@ public class Question {
         return wrongAnswers;
     }
 
-
-
-
-
-
-
+    public Answer getRandomWrongAnswers(Answer[] wrongAnswers) {
+        return wrongAnswers[new Random().nextInt(wrongAnswers.length)];
+    }
 
 
 }
