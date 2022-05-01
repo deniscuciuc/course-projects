@@ -8,7 +8,7 @@ public class FiftyFiftyHelp extends HelpOption {
     public HelpAnswer[] getHelpAnswers(Question question) {
         Answer correctHelpAnswer = question.getCorrectAnswer(question.getAnswers()),
                 wrongHelpAnswer = question.getRandomWrongAnswers(question.getWrongAnswers(question.getAnswers()));
-        return new HelpAnswer[]{
+        return new HelpAnswer[] {
                 new HelpAnswer(correctHelpAnswer, 50),
                 new HelpAnswer(wrongHelpAnswer, 50),
         };

@@ -21,16 +21,19 @@ public class ConsoleGame {
         while (isAnswerCorrect && currentLevel <= 5) {
             currentLevelObj  = questionsAndAnswers.getQuestionByLevel(currentLevel);
             questionsAndAnswers.printLevel(currentLevelObj, currentLevel);
+
             System.out.println();
             HelpAnswer.printHelpMenu();
             System.out.println();
             System.out.print("Raspunsul tau este: ");
+
             userAnswer = answerObj.nextLine();
             if (questionsAndAnswers.verifyAnswer(currentLevelObj, userAnswer)) {
                 currentScore += currentLevelObj.getScore();
                 System.out.println("Raspuns corect! (◕‿◕) Scorul curent: " + currentScore);
             } else {
                 System.out.println("Raspuns gresit! (￢_￢)  Scorul acumulat: " + currentScore);
+                questionsAndAnswers = null;
                 return;
             }
             currentLevel++;
