@@ -1,0 +1,519 @@
+[33mcommit 3ae861cb125716725d2787f05e7d346acb656371[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Sun May 1 17:22:11 2022 +0300
+
+    Little update
+
+[33mcommit de72b7bd44d6b773082d0825d9f5d88c593304eb[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Wed Apr 27 19:59:26 2022 +0300
+
+    Help Options
+
+[33mcommit 5bb87e3dc77104494df49019cc4a9b760dd4d7c4[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Wed Apr 27 17:16:47 2022 +0300
+
+    Practice polymorphism
+
+[33mcommit 40847c0166e79025eecc68b40ec1bd82f12cb22c[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Fri Apr 22 14:50:50 2022 +0300
+
+    Test version without help
+
+[33mcommit 6efce415581995853fda86203214e883be7f455b[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Sun Apr 17 11:07:17 2022 +0300
+
+    Little update
+
+[33mcommit 725a059036d50a2881bb87606473d9734de0a342[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Sun Apr 17 11:07:09 2022 +0300
+
+    Added all questions and answers
+
+[33mcommit b2f5fbe89ea833ebfbfa81afa54a4bf757792654[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Sun Apr 17 11:06:48 2022 +0300
+
+    Test version
+
+[33mcommit a0f769721e8f6bf8fe765cf1292dcb4bacc63a29[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Sat Apr 16 09:24:20 2022 +0300
+
+    last update
+
+[33mcommit 82ca3c866f64c33183ffb1a1a33485fe4b0d40aa[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Fri Apr 15 21:56:09 2022 +0300
+
+    added working while loop
+
+[33mcommit 3a11a38d339cccdecc0011c2ae5019f9eece82fc[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Fri Apr 15 20:33:55 2022 +0300
+
+    Added test version of random questions
+
+[33mcommit 0c8318d700c12c62d4c60efd1d5399ad10d43340[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Thu Apr 14 17:36:27 2022 +0300
+
+    Updated java project
+
+[33mcommit 2e4a012a5c06482d188fdedf470f7948094f274f[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Mon Apr 11 21:54:58 2022 +0300
+
+    out
+
+[33mcommit 7d2bc2471a6cef0a0a3838d247e978c50981d336[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Mon Apr 11 20:56:47 2022 +0300
+
+    Deleted external
+
+[33mcommit 04b4b6839f761a657474730d04d3947201547ed9[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Mon Apr 11 20:55:02 2022 +0300
+
+    Folders Refactoring
+
+[33mcommit 0ef8048b2703a73383af2c5469ea7079b1e2b98a[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Mon Apr 11 20:30:33 2022 +0300
+
+    Added project
+
+[33mcommit a37e0a25d0a746e77d0525bbc96fedef604ce2ef[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Sat Mar 26 06:53:55 2022 +0200
+
+    Lesson 18 homework
+
+[33mcommit 99fb0f639d172c8cf65a377a8f7e649968665a43[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Sat Mar 26 06:53:47 2022 +0200
+
+    Practice
+
+[33mcommit 70ec911f497f2af6f0076d681368e5397671f2ff[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Thu Mar 17 16:49:30 2022 +0200
+
+    Lesson 17 homework
+
+[33mcommit 130d9ef85dea6b3db7014a817f4688e050214503[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Tue Mar 15 18:07:10 2022 +0200
+
+    Half of homework
+
+[33mcommit 80d734f0f68730ac4bcdbb13f0a35d3edcfb9a1e[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Mon Mar 14 18:13:13 2022 +0200
+
+    Delete month enum
+
+[33mcommit fd4f298a02cde10cc8cd946536110147de5123e1[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Mon Mar 14 16:11:53 2022 +0200
+
+    Delete months.java enum
+
+[33mcommit 89682a5e464a4a75a1441eceeffbfb9acf6aed61[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Mon Mar 14 15:49:37 2022 +0200
+
+    Lesson 15 homework
+
+[33mcommit aa8044efa6e68d3a4bbf150538a86af4a82bbad5[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Mon Mar 14 15:49:26 2022 +0200
+
+    Error correction, added static for final variables
+
+[33mcommit de21e06f83fc68535f2289738cce3963f3c2dc6e[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Sun Mar 13 10:58:41 2022 +0200
+
+    Lesson 12 homework
+
+[33mcommit 810214c4e5e13ee8fd476b8199245ee3ee432686[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Sun Mar 13 10:57:26 2022 +0200
+
+    First test from thinking in java
+
+[33mcommit a1b8c0f52d9b3fcc2b75ad65adad3266fce70231[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Mon Mar 7 13:50:12 2022 +0200
+
+    Practice OOP
+
+[33mcommit 7d5fb978e9a0055fc5ed6fed7c142bbcfe45b1c1[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Mon Mar 7 13:50:06 2022 +0200
+
+    Added 11 homework
+
+[33mcommit ddf2226c3a06584292f37de601c21a1cf1409892[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Sun Mar 6 21:52:28 2022 +0200
+
+    Added enum months, and weekdays
+
+[33mcommit 316d744098aad77084bc2b5434ae8c91d8c22aa3[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Sun Mar 6 21:42:15 2022 +0200
+
+    Out
+
+[33mcommit 6617cb28e7377761fdd94967c446102bce3cb995[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Sun Mar 6 21:41:35 2022 +0200
+
+    Correcting design errors
+
+[33mcommit bd3b9809ce5003f725607ec6f7945f50efe07257[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Sun Mar 6 18:22:23 2022 +0200
+
+    Update. lesson 10 homework
+
+[33mcommit 3ab69e4e2ce196a3c7903a9cae02080f4280975d[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Sun Mar 6 18:22:12 2022 +0200
+
+    Update
+
+[33mcommit 9ae3e5665a46acf81192b5e0dc484143d5b33744[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Sun Mar 6 18:22:03 2022 +0200
+
+    Little update
+
+[33mcommit 2098b1e20e2af4772aa7393127cb06b16d91b1f3[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Sun Mar 6 18:21:53 2022 +0200
+
+    Added construct and display for wrapper
+
+[33mcommit ee36d58ddd6be010a1523e309df737f03c48f648[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Sun Mar 6 18:21:41 2022 +0200
+
+    Removes comment
+
+[33mcommit 8723311486d828860370021e30f5e97ab3e9835b[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Sun Mar 6 18:21:27 2022 +0200
+
+    Little update
+
+[33mcommit dd28581372b0a89c3fe4c865da577319db11d2c8[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Sun Mar 6 16:20:48 2022 +0200
+
+    Little update
+
+[33mcommit bb658a8f21dd62e2b97663eb35306cdcd63aea97[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Sun Mar 6 16:20:40 2022 +0200
+
+    Added new enum
+
+[33mcommit 76fb6afe397184f12f651c81bb3ef9ebffbd8495[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Sun Mar 6 16:17:54 2022 +0200
+
+    Update for 10 homework
+
+[33mcommit f8cd7c50c0121145ec78294f4e985a5cfaa5934f[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Sun Mar 6 16:15:28 2022 +0200
+
+    Part of 10 homework
+
+[33mcommit b61c4c1fe3cf66629041b029fa07d0c6f0187593[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Fri Mar 4 12:27:06 2022 +0200
+
+    Lesson 9 homework
+
+[33mcommit 4f160605958260c1437b36f1e439dd514f0893c6[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Fri Mar 4 08:55:27 2022 +0200
+
+    Change name for packages
+
+[33mcommit da7cb7ab2ff44370d8a34e09da64da8ccdf12f38[m
+Author: Denis Cuciuc <develop.deniscuciuc@outlook.com>
+Date:   Fri Mar 4 08:53:15 2022 +0200
+
+    Update after connecting this repository
+
+[33mcommit 506385d86cab1302e4b0e011a203695d2fee93d4[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Tue Feb 22 09:18:18 2022 +0200
+
+    Refactor name for packages (convention)
+
+[33mcommit d6ea75c6e584930a8ceee36ab9f0ead08a213123[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Tue Feb 22 08:03:28 2022 +0200
+
+    Update for display array
+
+[33mcommit acf7cb28758906da59794973cbc420b8027da98e[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Tue Feb 22 08:03:16 2022 +0200
+
+    Homeworku update
+
+[33mcommit c3a0d69d0eeec9cdc55e29217ae7b5e973998339[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Mon Feb 14 10:58:10 2022 +0200
+
+    3 tasks from 8 homework
+
+[33mcommit f78fb5a1b8785fa58920303004c6ba72abd089e9[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Mon Feb 14 10:57:23 2022 +0200
+
+    Create scanner.java (methods to input array values)
+
+[33mcommit 67ac38408c9683ce1449e47e461e7a076ae60a84[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Mon Feb 14 10:57:05 2022 +0200
+
+    Added minmax.java (3 ways to find min and max)
+
+[33mcommit 4cb20b61301420396e83ed1e641327461c73ed5d[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Mon Feb 14 10:56:43 2022 +0200
+
+    Rename
+
+[33mcommit 2ea1bd6f75a206c636c5653aa93df2b1bb91d292[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Sun Feb 13 20:15:32 2022 +0200
+
+    Deleted all from main
+
+[33mcommit 58a42b77a9d7e4359393763d9a81d4a6804dbafb[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Sun Feb 13 20:15:16 2022 +0200
+
+    Added arrayCalculator.java
+
+[33mcommit 3bda714783bfb0fafcb8eac84637535f51c525a6[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Sun Feb 13 09:33:01 2022 +0200
+
+    lesson 8 (just a part)
+
+[33mcommit 13b942eb26b8b4bfb3a89471d2526f10edb8b494[m
+Author: deniscuciuc <develop.deniscuciuc@outlook.com>
+Date:   Fri Feb 11 13:56:36 2022 +0200
+
+    Global update for different classes
+
+[33mcommit 993d4f3ab702cddfc5770a33a79c3ab89a0d02bb[m
+Author: deniscuciuc <develop.deniscuciuc@outlook.com>
+Date:   Wed Feb 9 20:36:48 2022 +0200
+
+    Update dowhile
+
+[33mcommit df39aa3c9af76135d255be907b086394425c07ea[m
+Author: deniscuciuc <develop.deniscuciuc@outlook.com>
+Date:   Wed Feb 9 20:36:37 2022 +0200
+
+    Deleted one if statement
+
+[33mcommit 1fb04d24630bf493c030237bc59b4399689617d4[m
+Author: deniscuciuc <develop.deniscuciuc@outlook.com>
+Date:   Wed Feb 9 20:26:03 2022 +0200
+
+    Updat for 7 homework
+
+[33mcommit 9d82cf0322690924d03ce679dcb449a23f00d587[m
+Author: deniscuciuc <denis.cuciuc.games@gmail.com>
+Date:   Wed Feb 9 17:49:32 2022 +0200
+
+    All tasks from 7 homework
+
+[33mcommit 38030783d41268fe6c95f94822f37a91c9017a31[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Wed Feb 9 14:35:37 2022 +0200
+
+    Lesson7homework - task 1
+
+[33mcommit ae63e9ad16788cfbfa75d9ce4abf98f177bea660[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Tue Feb 8 14:11:49 2022 +0200
+
+    Update for this class
+
+[33mcommit e8f9a064d2aad91b33d9e1343a04aee20c13796e[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Tue Feb 8 14:11:36 2022 +0200
+
+    Deleted ReadMe file
+
+[33mcommit 8d716cbcfc4feb020dd198df1fdf483eedf04b8e[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Tue Feb 8 13:54:26 2022 +0200
+
+    Added println
+
+[33mcommit c2affb12261859e57ee2e924f6b8838af44f0ab9[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Tue Feb 8 13:53:36 2022 +0200
+
+    Update for task12
+
+[33mcommit 8b3d4048305ad2746bf4c45d05a2ebc7000f1bb7[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Tue Feb 8 13:51:56 2022 +0200
+
+    Uploaded 5 exercises from w3
+
+[33mcommit 118fcd74a775d22582e4d487a58173f23f547f34[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Mon Feb 7 19:21:52 2022 +0200
+
+    Little update for minutesconverter
+
+[33mcommit 4b2a9053332ad3d682680c84373c261b2501f67c[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Mon Feb 7 19:21:36 2022 +0200
+
+    Uploaded new external package for self practice
+
+[33mcommit ff4624ff4035cb79bf1e9d86e40168743754700b[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Mon Feb 7 19:20:09 2022 +0200
+
+    Update for switchternary class
+
+[33mcommit 2d04e7cff3117e8bcb038b24f46127332b685481[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Mon Feb 7 16:08:58 2022 +0200
+
+    Update for colorCode variable
+
+[33mcommit a778c452ae95ce6e573a84726ab937f4c1fbe9bd[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Mon Feb 7 14:39:09 2022 +0200
+
+    Space between lines
+
+[33mcommit 500e296e3e43669189c1ad1ee93c84785ff450ba[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Mon Feb 7 14:38:59 2022 +0200
+
+    SwitchTernary task
+
+[33mcommit 58bf06a46bf73d628666b9a1387a026db33fdbf1[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Mon Feb 7 13:33:56 2022 +0200
+
+    Added one more situation when negative can be large
+
+[33mcommit d774baa197be86f9f336a69c88ce4d47fb9ee3aa[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Mon Feb 7 13:33:37 2022 +0200
+
+    Deleted useless variables and used values from array directly
+
+[33mcommit 42a38abd13b4a9d43b3947a89bb150dfded9bcec[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Sun Feb 6 08:32:27 2022 +0200
+
+    Fix previos classes
+
+[33mcommit eb297c9d40bc6ab8734b2a90f9b343a85688dc0d[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Sun Feb 6 08:32:05 2022 +0200
+
+    Lesson 6 homework (without second task for now)
+
+[33mcommit 8c092416b852b365fb77182e1719dddddce1044d[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Fri Feb 4 19:20:39 2022 +0200
+
+    Refactoring for all classes. Used camel style for variables
+
+[33mcommit f9a199055867465fb7b364e18f382d5c6ada13d9[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Fri Feb 4 18:51:54 2022 +0200
+
+    One more case, if number is pos and small
+
+[33mcommit a1e3ef6aa8644076ffef88f54a2c8d8c45856fd5[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Fri Feb 4 18:47:14 2022 +0200
+
+    Rename classes
+
+[33mcommit 4b05faafe3708c3d45fd1d663127d74215d3745c[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Fri Feb 4 18:41:41 2022 +0200
+
+    Change all int to double
+
+[33mcommit 2ef5313d1eee5b0cc933ea4028bdb626bb93405b[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Fri Feb 4 14:25:55 2022 +0200
+
+    Uploaded homework. Lesson 5
+
+[33mcommit c60f38685b84fa794d30e7a836a7939ab9b8680f[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Fri Feb 4 10:51:44 2022 +0200
+
+    Added alternative names for variables
+
+[33mcommit ab5e9f6703fd7a9d029e0c442b858a8dc1e8b31a[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Thu Feb 3 17:49:33 2022 +0200
+
+    Change 3 task, variables and method
+
+[33mcommit 00fb68b9196a983c23a725cde092aee1e246a451[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Thu Feb 3 14:31:21 2022 +0200
+
+    Added in ignore 3 folders
+
+[33mcommit b84f77ee77fcebb4b72598883dea516fbb20a692[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Thu Feb 3 14:25:03 2022 +0200
+
+    Remove all from gitignore
+
+[33mcommit 920ef215a0ec909d57d706b98913c78ca0155089[m
+Merge: 8b1edcd 3d6b602
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Thu Feb 3 14:24:27 2022 +0200
+
+    Remove pass.conf
+
+[33mcommit 8b1edcdd65ed927fcc41de5d3cd7aaccf0dd4b5b[m
+Author: deniscuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Thu Feb 3 14:22:51 2022 +0200
+
+    Remove pass
+
+[33mcommit 3d6b602f2874f8737dec8a2f6b2fbea69a7e2ccf[m
+Author: Denis Cuciuc <86614824+deniscuciuc@users.noreply.github.com>
+Date:   Thu Feb 3 15:21:58 2022 +0300
+
+    Remove pass from gitignore
+
+[33mcommit b5f8345a679c05bd15ad6a678d9182fcbf97fd4c[m
+Author: Denis Cuciuc <86614824+deniscuci
