@@ -3,127 +3,128 @@ package com.example.whowantstobemillionaire.levels;
 import java.util.Arrays;
 import java.util.Locale;
 import java.util.Random;
+import java.util.stream.Stream;
 
 public class QuestionsAndAnswers {
     private final Answer[] ANSWERS_1_LEVEL_1 =  {
-            new Answer("stat", AnswerSequence.A, false),
-            new Answer("casa", AnswerSequence.B, true),
-            new Answer("soare", AnswerSequence.C, false),
-            new Answer("viata", AnswerSequence.D, false),
+            new Answer("stat", AnswerOptions.A, false),
+            new Answer("casa", AnswerOptions.B, true),
+            new Answer("soare", AnswerOptions.C, false),
+            new Answer("viata", AnswerOptions.D, false),
     };
     private final Answer[] ANSWERS_2_LEVEL_1 =  {
-            new Answer("Australia", AnswerSequence.A, false),
-            new Answer("Brazilia", AnswerSequence.B, true),
-            new Answer("Africa de Sud", "c", false),
-            new Answer("Indonezia", "d", false),
+            new Answer("Australia", AnswerOptions.A, false),
+            new Answer("Brazilia", AnswerOptions.B, true),
+            new Answer("Africa de Sud", AnswerOptions.C, false),
+            new Answer("Indonezia", AnswerOptions.D, false),
     };
     private final Answer[] ANSWERS_3_LEVEL_1 =  {
-            new Answer("Pinot Grigio", "a", false),
-            new Answer("Riesling", "b", false),
-            new Answer("Cabernet Sauvignon", "c", true),
-            new Answer("Chardonnay", "d", false),
+            new Answer("Pinot Grigio", AnswerOptions.A, false),
+            new Answer("Riesling", AnswerOptions.B, false),
+            new Answer("Cabernet Sauvignon", AnswerOptions.C, true),
+            new Answer("Chardonnay", AnswerOptions.D, false),
     };
     private final Answer[] ANSWERS_4_LEVEL_1 =  {
-            new Answer("Libia", "a", true),
-            new Answer("Tunisia", "b", false),
-            new Answer("Sudan", "c", false),
-            new Answer("Egipt", "d", false),
+            new Answer("Libia", AnswerOptions.A, true),
+            new Answer("Tunisia", AnswerOptions.B, false),
+            new Answer("Sudan", AnswerOptions.C, false),
+            new Answer("Egipt", AnswerOptions.D, false),
     };
     private final Answer[] ANSWERS_1_LEVEL_2 =  {
-            new Answer("BIOS", "a", false),
-            new Answer("RAM", "b", false),
-            new Answer("USB", "c", false),
-            new Answer("Procesorul", "d", true),
+            new Answer("BIOS", AnswerOptions.A, false),
+            new Answer("RAM", AnswerOptions.B, false),
+            new Answer("USB", AnswerOptions.C, false),
+            new Answer("Procesorul", AnswerOptions.D, true),
     };
     private final Answer[] ANSWERS_2_LEVEL_2 =  {
-            new Answer("Abu Dhabi", "a", false),
-            new Answer("Manama", "b", false),
-            new Answer("Doha", "c", false),
-            new Answer("Ryadh", "d", true),
+            new Answer("Abu Dhabi", AnswerOptions.A, false),
+            new Answer("Manama", AnswerOptions.B, false),
+            new Answer("Doha", AnswerOptions.C, false),
+            new Answer("Ryadh", AnswerOptions.D, true),
     };
     private final Answer[] ANSWERS_3_LEVEL_2 =  {
-            new Answer("El Cano", "a", false),
-            new Answer("El Greco", "b", false),
-            new Answer("El Cid", "c", true),
-            new Answer("El Salvador", "d", false),
+            new Answer("El Cano", AnswerOptions.A, false),
+            new Answer("El Greco", AnswerOptions.B, false),
+            new Answer("El Cid", AnswerOptions.C, true),
+            new Answer("El Salvador", AnswerOptions.D, false),
     };
     private final Answer[] ANSWERS_4_LEVEL_2 =  {
-            new Answer("Prahova", "a", false),
-            new Answer("Alba", "b", true),
-            new Answer("Buzău", "c", false),
-            new Answer("Maramureş", "d", false),
+            new Answer("Prahova", AnswerOptions.A, false),
+            new Answer("Alba", AnswerOptions.B, true),
+            new Answer("Buzău", AnswerOptions.C, false),
+            new Answer("Maramureş", AnswerOptions.D, false),
     };
     private final Answer[] ANSWERS_1_LEVEL_3 =  {
-            new Answer("gârbaci", "a", true),
-            new Answer("gârliţă", "b", false),
-            new Answer("gâză", "c", false),
-            new Answer("gârniţă", "d", false),
+            new Answer("gârbaci", AnswerOptions.A, true),
+            new Answer("gârliţă", AnswerOptions.B, false),
+            new Answer("gâză", AnswerOptions.C, false),
+            new Answer("gârniţă", AnswerOptions.D, false),
     };
     private final Answer[] ANSWERS_2_LEVEL_3 =  {
-            new Answer("giromanţie", "a", false),
-            new Answer("acromanţie", "b", true),
-            new Answer("meteoromanţie", "c", false),
-            new Answer("nefelomanţie", "d", false),
+            new Answer("giromanţie", AnswerOptions.A, false),
+            new Answer("acromanţie", AnswerOptions.B, true),
+            new Answer("meteoromanţie", AnswerOptions.C, false),
+            new Answer("nefelomanţie", AnswerOptions.D, false),
     };
     private final Answer[] ANSWERS_3_LEVEL_3 =  {
-            new Answer("Roma", "a", false),
-            new Answer("Paris", "b", true),
-            new Answer("Berlin", "c", false),
-            new Answer("Atena", "d", false),
+            new Answer("Roma", AnswerOptions.A, false),
+            new Answer("Paris", AnswerOptions.B, true),
+            new Answer("Berlin", AnswerOptions.C, false),
+            new Answer("Atena", AnswerOptions.D, false),
     };
     private final Answer[] ANSWERS_4_LEVEL_3 =  {
-            new Answer("Palton", "a", false),
-            new Answer("Pălărie", "b", true),
-            new Answer("Pantof", "c", false),
-            new Answer("Cravată", "d", false),
+            new Answer("Palton", AnswerOptions.A, false),
+            new Answer("Pălărie", AnswerOptions.B, true),
+            new Answer("Pantof", AnswerOptions.C, false),
+            new Answer("Cravată", AnswerOptions.D, false),
     };
     private final Answer[] ANSWERS_1_LEVEL_4 =  {
-            new Answer("Van Eyck", "a", false),
-            new Answer("Holbein", "b", true),
-            new Answer("Mihailangelo", "c", false),
-            new Answer("Rembrandt", "d", false),
+            new Answer("Van Eyck", AnswerOptions.A, false),
+            new Answer("Holbein", AnswerOptions.B, true),
+            new Answer("Mihailangelo", AnswerOptions.C, false),
+            new Answer("Rembrandt", AnswerOptions.D, false),
     };
     private final Answer[] ANSWERS_2_LEVEL_4 =  {
-            new Answer("Tenis pe gazon", "a", false),
-            new Answer("Uniunea de rugby", "b", false),
-            new Answer("Polo", "c", false),
-            new Answer("Cricket", "d", true),
+            new Answer("Tenis pe gazon", AnswerOptions.A, false),
+            new Answer("Uniunea de rugby", AnswerOptions.B, false),
+            new Answer("Polo", AnswerOptions.C, false),
+            new Answer("Cricket", AnswerOptions.D, true),
     };
     private final Answer[] ANSWERS_3_LEVEL_4 =  {
-            new Answer("Coldplay", "a", false),
-            new Answer("Toploader", "b", false),
-            new Answer("A1", "c", false),
-            new Answer("Craig David", "d", true),
+            new Answer("Coldplay", AnswerOptions.A, false),
+            new Answer("Toploader", AnswerOptions.B, false),
+            new Answer("A1", AnswerOptions.C, false),
+            new Answer("Craig David", AnswerOptions.D, true),
     };
     private final Answer[] ANSWERS_4_LEVEL_4 =  {
-            new Answer("Franța", "a", false),
-            new Answer("Italia", "b", false),
-            new Answer("Olanda", "c", false),
-            new Answer("Elveția", "d", true),
+            new Answer("Franța", AnswerOptions.A, false),
+            new Answer("Italia", AnswerOptions.B, false),
+            new Answer("Olanda", AnswerOptions.C, false),
+            new Answer("Elveția", AnswerOptions.D, true),
     };
     private final Answer[] ANSWERS_1_LEVEL_5 =  {
-            new Answer("Adnan Khashoggi", "a", false),
-            new Answer("Ronald Regan", "b", false),
-            new Answer("Aristotel Onassis", "c", true),
-            new Answer("Rupert Murdoch", "d", false),
+            new Answer("Adnan Khashoggi", AnswerOptions.A, false),
+            new Answer("Ronald Regan", AnswerOptions.B, false),
+            new Answer("Aristotel Onassis", AnswerOptions.C, true),
+            new Answer("Rupert Murdoch", AnswerOptions.D, false),
     };
     private final Answer[] ANSWERS_2_LEVEL_5 =  {
-            new Answer("Anglia", "a", false),
-            new Answer("Scoția", "b", false),
-            new Answer("Irlanda de Nord", "c", true),
-            new Answer("Țara Galilor", "d", false),
+            new Answer("Anglia", AnswerOptions.A, false),
+            new Answer("Scoția", AnswerOptions.B, false),
+            new Answer("Irlanda de Nord", AnswerOptions.C, true),
+            new Answer("Țara Galilor", AnswerOptions.D, false),
     };
     private final Answer[] ANSWERS_3_LEVEL_5 =  {
-            new Answer("germană", "a", false),
-            new Answer("norvegiană", "b", false),
-            new Answer("franceză", "c", true),
-            new Answer("Daneză", "d", false),
+            new Answer("germană", AnswerOptions.A, false),
+            new Answer("norvegiană", AnswerOptions.B, false),
+            new Answer("franceză", AnswerOptions.C, true),
+            new Answer("Daneză", AnswerOptions.D, false),
     };
     private final Answer[] ANSWERS_4_LEVEL_5 =  {
-            new Answer("Turtă scurtă", "a", false),
-            new Answer("Joc de pavaj", "b", false),
-            new Answer("Floare de grădină", "c", false),
-            new Answer("Toffee fragil", "d", true),
+            new Answer("Turtă scurtă", AnswerOptions.A, false),
+            new Answer("Joc de pavaj", AnswerOptions.B, false),
+            new Answer("Floare de grădină", AnswerOptions.C, false),
+            new Answer("Toffee fragil", AnswerOptions.D, true),
     };
 
     private final Question[] LEVEL_1 = {
@@ -171,17 +172,20 @@ public class QuestionsAndAnswers {
         };
     }
 
-    public boolean verifyAnswer(Question question, AnswerSequence answer) {
-        return answer.equalsIgnoreCase(question.getCorrectAnswer(question.getAnswers()).getAnswerOption());
+    public boolean verifyAnswer(Question question, String answer) {
+        return answer.equalsIgnoreCase(question.getCorrectAnswer(question.getAnswers()).getAnswerOption().toString());
     }
 
     public void printLevel(Question question, int currentLevel) {
         Answer[] answers = question.getAnswers();
+        Stream<Answer> answerStreamObj = Arrays.stream(answers);
         System.out.println();
         System.out.println("● Nivelul " + currentLevel);
         System.out.println("⋙ " + question.getQuestion());
-        for (Answer answer : answers) {
-            System.out.println("    " + answer.getAnswerOption().toLowerCase(Locale.ROOT) + ": " + answer.getAnswer());
-        }
+        answerStreamObj.forEach(answer -> System.out.println("    " + answer.getAnswerOption().toString().toLowerCase(Locale.ROOT) + ": " + answer.getAnswer()));
+        System.out.println();
+        System.out.println("----- Ajutor ------");
+        System.out.println("F - 50/50 | P - Suna un prieten | A - Intreaba publicul");
+        System.out.println();
     }
 }

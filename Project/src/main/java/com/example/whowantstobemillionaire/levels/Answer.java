@@ -2,10 +2,10 @@ package com.example.whowantstobemillionaire.levels;
 
 public class Answer {
     private String answer;
-    private AnswerSequence answerOption;
+    private AnswerOptions answerOption;
     private boolean isCorrect;
 
-    public Answer(String answer, AnswerSequence answerOption, boolean isCorrect) {
+    public Answer(String answer, AnswerOptions answerOption, boolean isCorrect) {
         this.answer = answer;
         this.answerOption = answerOption;
         this.isCorrect = isCorrect;
@@ -19,11 +19,11 @@ public class Answer {
         this.answer = answer;
     }
 
-    public AnswerSequence getAnswerOption() {
+    public AnswerOptions getAnswerOption() {
         return answerOption;
     }
 
-    public void setAnswerOption(AnswerSequence answerOption) {
+    public void setAnswerOption(AnswerOptions answerOption) {
         this.answerOption = answerOption;
     }
 

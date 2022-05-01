@@ -67,6 +67,4 @@ public class Question {
     public Answer getRandomWrongAnswers(Answer[] wrongAnswers) {
         return wrongAnswers[new Random().nextInt(wrongAnswers.length)];
     }
-
-
 }

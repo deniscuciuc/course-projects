@@ -1,5 +1,5 @@
 package com.example.whowantstobemillionaire.levels;
 
-public enum AnswerSequence {
-    A, B, C, D;
+public enum AnswerOptions {
+    A, B, C, D
 }

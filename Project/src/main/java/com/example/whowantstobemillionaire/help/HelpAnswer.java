@@ -1,6 +1,10 @@
 package com.example.whowantstobemillionaire.help;
 
 import com.example.whowantstobemillionaire.levels.Answer;
+import com.example.whowantstobemillionaire.levels.Question;
+
+import java.util.Arrays;
+import java.util.stream.Stream;
 
 public class HelpAnswer {
     private Answer answer;
@@ -9,6 +13,10 @@ public class HelpAnswer {
     public HelpAnswer(Answer answer, double probability) {
         this.answer = answer;
         this.probability = probability;
+    }
+
+    public HelpAnswer() {
+
     }
 
     public Answer getAnswer() {
@@ -27,8 +35,14 @@ public class HelpAnswer {
         this.probability = probability;
     }
 
-    public static void printHelpMenu() {
-        System.out.println("----- Ajutor ------");
-        System.out.println("F - 50/50 | P - Suna un prieten | A - Intreaba publicul");
+    public boolean verifyAnswer(String answer) {
+        HelpOptions[] helpOptions =  HelpOptions.values();
+        for (HelpOptions options : helpOptions) {
+            if (answer.equalsIgnoreCase(options.name())) {
+                return true;
+            }
+        }
+        return false;
     }
+
 }
