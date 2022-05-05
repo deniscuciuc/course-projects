@@ -2,17 +2,14 @@ package com.example.whowantstobemillionaire;
 
 import com.example.whowantstobemillionaire.help.FiftyFiftyHelp;
 import com.example.whowantstobemillionaire.help.HelpAnswer;
-import com.example.whowantstobemillionaire.levels.Answer;
 import com.example.whowantstobemillionaire.levels.Question;
 import com.example.whowantstobemillionaire.levels.QuestionsAndAnswers;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ConsoleGame {
     public void launchGame() {
         int currentLevel = 1, currentScore = 0;
-        ArrayList<Answer> answer = new ArrayList<>();
         QuestionsAndAnswers questionsAndAnswers = new QuestionsAndAnswers();
         Question currentLevelQuestion;
         HelpAnswer helpAnswer = new HelpAnswer();
