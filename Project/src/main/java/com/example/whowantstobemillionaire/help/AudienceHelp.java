@@ -2,9 +2,12 @@ package com.example.whowantstobemillionaire.help;
 
 import com.example.whowantstobemillionaire.levels.Question;
 
+import java.util.ArrayList;
+
 public class AudienceHelp extends HelpOption {
     @Override
-    public HelpAnswer[] getHelpAnswers(Question question) {
-        return new HelpAnswer[0];
+    public ArrayList<HelpAnswer> getHelpAnswers(Question question) {
+
+        return new ArrayList<HelpAnswer>();
     }
 }

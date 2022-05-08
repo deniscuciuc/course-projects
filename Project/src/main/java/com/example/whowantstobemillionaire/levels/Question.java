@@ -1,14 +1,15 @@
 package com.example.whowantstobemillionaire.levels;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 public class Question {
     private String question;
     private int level;
     private int score;
-    private Answer[] answers;
+    private ArrayList<Answer> answers;
 
-    public Question(String question, Answer[] answers, int level, int score) {
+    public Question(String question, ArrayList<Answer> answers, int level, int score) {
         this.question = question;
         this.answers = answers;
         this.level = level;
@@ -39,10 +40,10 @@ public class Question {
         this.score = score;
     }
 
-    public Answer[] getAnswers() { return answers; }
+    public ArrayList<Answer> getAnswers() { return answers; }
 
 
-    public Answer getCorrectAnswer(Answer[] answers) {
+    public Answer getCorrectAnswer(ArrayList<Answer> answers) {
         for (Answer correctAnswer : answers) {
             if (correctAnswer.isCorrect()) {
                 return correctAnswer;
@@ -52,19 +53,21 @@ public class Question {
     }
 
 
-    public Answer[] getWrongAnswers(Answer[] answers) {
-        Answer[] wrongAnswers = new Answer[3];
-        int i = 0;
-        for (Answer wrongAnswer : answers) {
-            if (!wrongAnswer.isCorrect()) {
-                wrongAnswers[i] = wrongAnswer;
-                i++;
+    public ArrayList<Answer> getWrongAnswers(ArrayList<Answer> answers) {
+        ArrayList<Answer> wrongAnswers = new ArrayList<>();
+        for (int i = 0; i < 3; i++) {
+            if (!answers.get(i).isCorrect()) {
+                wrongAnswers.add(answers.get(i));
             }
         }
         return wrongAnswers;
     }
 
-    public Answer getRandomWrongAnswers(Answer[] wrongAnswers) {
-        return wrongAnswers[new Random().nextInt(wrongAnswers.length)];
+    public Answer getRandomWrongAnswers(ArrayList<Answer> wrongAnswers) {
+        return wrongAnswers.get(new Random().nextInt(wrongAnswers.size()));
+    }
+
+    public boolean verifyAnswer(Question question, String answer) {
+        return answer.equalsIgnoreCase(question.getCorrectAnswer(question.getAnswers()).getAnswerOption().toString());
     }
 }
