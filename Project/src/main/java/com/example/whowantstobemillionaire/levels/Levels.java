@@ -1,8 +1,6 @@
 package com.example.whowantstobemillionaire.levels;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Locale;
 import java.util.Random;
 import java.util.stream.Stream;

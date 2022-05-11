@@ -4,9 +4,9 @@ import com.example.whowantstobemillionaire.levels.Answer;
 import com.example.whowantstobemillionaire.levels.Question;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class FiftyFiftyHelp extends HelpOption {
+
     @Override
     public ArrayList<HelpAnswer> getHelpAnswers(Question question) {
         Answer correctHelpAnswer = question.getCorrectAnswer(question.getAnswers()),
@@ -16,6 +16,18 @@ public class FiftyFiftyHelp extends HelpOption {
         helpAnswers.add(new HelpAnswer(wrongHelpAnswer, 50));
         return helpAnswers;
     }
+
+    /*this will return two wrong answers*/
+    public ArrayList<Answer> getWrongHelpAnswers(Question question) {
+        ArrayList<Answer> wrongHelpAnswers = new ArrayList<>();
+        do {
+            wrongHelpAnswers.add(question.getRandomWrongAnswers(question.getWrongAnswers(question.getAnswers())));
+            wrongHelpAnswers.add(question.getRandomWrongAnswers(question.getWrongAnswers(question.getAnswers())));
+        } while (wrongHelpAnswers.get(0) == wrongHelpAnswers.get(1));
+
+        return wrongHelpAnswers;
+    }
+
 
     public void printAnswers(ArrayList<HelpAnswer> helpAnswers) {
         for (HelpAnswer answers : helpAnswers) {

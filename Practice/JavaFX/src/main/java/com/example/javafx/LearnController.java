@@ -6,14 +6,37 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.shape.Circle;
+import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.EventObject;
 
-public class HelloController {
+public class LearnController {
+    /*@FXML
+    private TextField userNameTextField;*/
+
     private Stage stage;
+    private Scene scene;
+    private Parent root;
+
+
+
+    /*public void login(ActionEvent event) throws IOException {
+        String userName = userNameTextField.getText();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("level2.fxml"));
+        root = loader.load();
+
+        Scene2Controller scene2Controller = loader.getController();
+        scene2Controller.displayName(userName);
+
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }*/
+
+    /*private Stage stage;
     private Scene scene;
     private Parent root;
 
@@ -35,7 +58,7 @@ public class HelloController {
         scene.getStylesheets().add(css);
         stage.setScene(scene);
         stage.show();
-    }
+    }*/
 
    /* @FXML
     private Circle myCircle;

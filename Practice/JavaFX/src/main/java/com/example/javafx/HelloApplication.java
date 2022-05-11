@@ -23,13 +23,15 @@ import java.util.Objects;
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        String css = this.getClass().getResource("test.css").toExternalForm();
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
-        scene.getStylesheets().add(css);
-        stage.setTitle("Learn JavaFX!");
-        stage.setScene(scene);
-        stage.show();
+        try {
+            Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("hello-view.fxml")));
+            Scene scene = new Scene(root);
+            stage.setScene(scene);
+            stage.show();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
         /*Group root = new Group();
         Scene scene = new Scene(root, 600, 600, Color.MIDNIGHTBLUE);
         Stage stage = new Stage();

@@ -55,7 +55,7 @@ public class Question {
 
     public ArrayList<Answer> getWrongAnswers(ArrayList<Answer> answers) {
         ArrayList<Answer> wrongAnswers = new ArrayList<>();
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 4; i++) {
             if (!answers.get(i).isCorrect()) {
                 wrongAnswers.add(answers.get(i));
             }
