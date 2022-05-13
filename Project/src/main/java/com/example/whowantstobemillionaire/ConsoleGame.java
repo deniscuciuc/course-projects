@@ -30,7 +30,7 @@ public class ConsoleGame {
                     case "A":
                         fiftyFiftyHelp.printAnswers(fiftyFiftyHelp.getHelpAnswers(currentLevelQuestion));
                     case "P":
-                        
+
                 }
             } else if (currentLevelQuestion.verifyAnswer(currentLevelQuestion, userAnswer)) {
                 currentScore += currentLevelQuestion.getScore();
