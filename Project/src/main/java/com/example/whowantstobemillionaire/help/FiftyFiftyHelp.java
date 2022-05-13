@@ -17,7 +17,7 @@ public class FiftyFiftyHelp extends HelpOption {
         return helpAnswers;
     }
 
-    /*this will return two wrong answers*/
+
     public ArrayList<Answer> getWrongHelpAnswers(Question question) {
         ArrayList<Answer> wrongHelpAnswers = new ArrayList<>();
         do {

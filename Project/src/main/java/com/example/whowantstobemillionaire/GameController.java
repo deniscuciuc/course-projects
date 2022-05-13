@@ -1,9 +1,7 @@
 package com.example.whowantstobemillionaire;
 
-import com.example.whowantstobemillionaire.help.AudienceHelp;
 import com.example.whowantstobemillionaire.help.FiftyFiftyHelp;
 import com.example.whowantstobemillionaire.help.HelpAnswer;
-import com.example.whowantstobemillionaire.help.HelpOption;
 import com.example.whowantstobemillionaire.levels.Answer;
 import com.example.whowantstobemillionaire.levels.Levels;
 import com.example.whowantstobemillionaire.levels.Question;
@@ -20,7 +18,6 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Locale;
-import java.util.Random;
 
 public class GameController {
     @FXML
