@@ -2,12 +2,10 @@ package game;
 
 import game.characters.Character;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectOutputStream;
+import java.io.*;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
         Character firstCharacter = new Character("1", 50, "Elf");
         Character secondCharacter = new Character("2",200, "Troll");
         Character thirdCharacter = new Character("3",50, "Magician");
@@ -24,5 +22,14 @@ public class Main {
             e.printStackTrace();
         }
 
+        secondCharacter = null;
+        thirdCharacter = null;
+
+        Character testReader = (Character) firstCharacter.readObjectFromFile("MyGame.ser");
+        System.out.println(testReader);
+
+
     }
+
+
 }

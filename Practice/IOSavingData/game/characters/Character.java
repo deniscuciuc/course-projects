@@ -1,5 +1,8 @@
 package game.characters;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
 import java.io.Serializable;
 
 public class Character implements Serializable {
@@ -36,5 +39,15 @@ public class Character implements Serializable {
 
     public void setRace(String race) {
         this.race = race;
+    }
+
+    public Character readObjectFromFile(String filePath) throws IOException, ClassNotFoundException {
+        FileInputStream fileIn = new FileInputStream(filePath);
+        ObjectInputStream objIn = new ObjectInputStream(fileIn);
+
+        Character characterObj = (Character) objIn.readObject();
+        System.out.println("The object has been read from the file!");
+        objIn.close();
+        return characterObj;
     }
 }

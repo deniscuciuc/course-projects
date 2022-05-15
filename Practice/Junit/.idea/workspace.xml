@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49941aa6-83bd-4dd3-8038-3ff0e2900371" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../BonusProjects/PizzaShop/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BonusProjects/PizzaShop/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BonusProjects/PizzaShop/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BonusProjects/PizzaShop/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BonusProjects/PizzaShop/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BonusProjects/PizzaShop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BonusProjects/PizzaShop/src/main/java/ConsoleUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BonusProjects/PizzaShop/src/main/java/PizzaShopApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/calculator/SimpleCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/calculator/SimpleCalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project/src/main/java/com/example/whowantstobemillionaire/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/src/main/java/com/example/whowantstobemillionaire/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project/src/main/java/com/example/whowantstobemillionaire/help/FiftyFiftyHelp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/src/main/java/com/example/whowantstobemillionaire/help/FiftyFiftyHelp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project/target/classes/com/example/whowantstobemillionaire/game.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/target/classes/com/example/whowantstobemillionaire/game.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BonusProjects/PizzaShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../BonusProjects/PizzaShop/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
