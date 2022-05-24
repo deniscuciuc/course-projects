@@ -4,7 +4,7 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.whowantstobemillionaire.GameWinController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.whowantstobemillionaire.controllers.GameWinController">
    <children>
       <Label layoutX="286.0" layoutY="192.0" text="You win" />
       <Button fx:id="restartBtn" layoutX="281.0" layoutY="225.0" mnemonicParsing="false" onAction="#restart" text="Restart" />

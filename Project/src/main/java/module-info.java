@@ -12,4 +12,6 @@ module com.example.whowantstobemillionaire {
 
     opens com.example.whowantstobemillionaire to javafx.fxml;
     exports com.example.whowantstobemillionaire;
+    exports com.example.whowantstobemillionaire.controllers;
+    opens com.example.whowantstobemillionaire.controllers to javafx.fxml;
 }

@@ -1,5 +1,6 @@
 package com.example.whowantstobemillionaire.help;
 
+import com.example.whowantstobemillionaire.enums.HelpOptions;
 import com.example.whowantstobemillionaire.levels.Answer;
 
 public class HelpAnswer {
@@ -31,7 +32,7 @@ public class HelpAnswer {
         this.probability = probability;
     }
 
-    public boolean verifyAnswer(String answer) {
+    public boolean getHelpOption(String answer) {
         HelpOptions[] helpOptions =  HelpOptions.values();
         for (HelpOptions options : helpOptions) {
             if (answer.equals(options.name())) {

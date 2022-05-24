@@ -4,7 +4,7 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.whowantstobemillionaire.GameController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.whowantstobemillionaire.controllers.GameController">
     <children>
         <Label fx:id="currentLevelLabel" layoutX="18.0" layoutY="14.0" text="Nivel" />
         <Label fx:id="currentScoreLabel" layoutX="85.0" layoutY="14.0" text="Scor" />
@@ -12,7 +12,7 @@
         <Button fx:id="audienceHelpBtn" layoutX="227.0" layoutY="74.0" mnemonicParsing="false" onAction="#AudienceHelpBtn" prefHeight="25.0" prefWidth="123.0" text="Intreaba publicul" />
         <Button fx:id="phoneHelpBtn" layoutX="362.0" layoutY="74.0" mnemonicParsing="false" onAction="#phoneHelp" prefHeight="25.0" prefWidth="123.0" text="Suna un prieten" />
         <Label fx:id="questionLabel" layoutX="133.0" layoutY="166.0" prefHeight="87.0" prefWidth="417.0" text="Intrebarea pusa de catre metoda get()?" />
-      <Button fx:id="optionABtn" layoutX="133.0" layoutY="261.0" mnemonicParsing="false" onAction="#clickButtonEven" prefHeight="43.0" prefWidth="123.0" text="a:" />
+      <Button fx:id="optionABtn" layoutX="133.0" layoutY="261.0" mnemonicParsing="false" onAction="#verifyAnswerA" prefHeight="43.0" prefWidth="123.0" text="a:" />
       <Button fx:id="optionBBtn" layoutX="342.0" layoutY="261.0" mnemonicParsing="false" onAction="#verifyAnswerB" prefHeight="43.0" prefWidth="123.0" text="b:" />
       <Button fx:id="optionCBtn" layoutX="134.0" layoutY="330.0" mnemonicParsing="false" onAction="#verifyAnswerC" prefHeight="43.0" prefWidth="123.0" text="c:" />
       <Button fx:id="optionDBtn" layoutX="343.0" layoutY="330.0" mnemonicParsing="false" onAction="#verifyAnswerD" prefHeight="43.0" prefWidth="123.0" text="d:" />

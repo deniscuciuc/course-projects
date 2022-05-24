@@ -3,7 +3,6 @@ package com.example.whowantstobemillionaire.help;
 import com.example.whowantstobemillionaire.levels.Answer;
 import com.example.whowantstobemillionaire.levels.Question;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class AudienceHelp extends HelpOption {

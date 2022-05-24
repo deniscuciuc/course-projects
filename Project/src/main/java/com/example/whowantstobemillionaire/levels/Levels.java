@@ -1,5 +1,7 @@
 package com.example.whowantstobemillionaire.levels;
 
+import com.example.whowantstobemillionaire.enums.AnswerOptions;
+
 import java.util.ArrayList;
 import java.util.Locale;
 import java.util.Random;
@@ -177,7 +179,7 @@ public class Levels {
         answerStreamObj.forEach(answer -> System.out.println("    " + answer.getAnswerOption().toString().toLowerCase(Locale.ROOT) + ": " + answer.getAnswer()));
         System.out.println();
         System.out.println("----- Ajutor ------");
-        System.out.println("F - 50/50 | P - Suna un prieten | A - Intreaba publicul");
+        System.out.println("F - 50/50 | P - Suna un prieten | K - Intreaba publicul");
         System.out.println();
     }
 }

@@ -1,5 +1,7 @@
 package com.example.whowantstobemillionaire.levels;
 
+import com.example.whowantstobemillionaire.enums.AnswerOptions;
+
 public class Answer {
     private String answer;
     private AnswerOptions answerOption;

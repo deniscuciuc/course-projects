@@ -1,4 +1,4 @@
-package com.example.whowantstobemillionaire;
+package com.example.whowantstobemillionaire.controllers;
 
 import com.example.whowantstobemillionaire.help.FiftyFiftyHelp;
 import com.example.whowantstobemillionaire.help.HelpAnswer;

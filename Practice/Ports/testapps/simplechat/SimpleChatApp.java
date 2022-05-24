@@ -9,8 +9,8 @@ import java.io.PrintWriter;
 import java.net.Socket;
 
 public class SimpleChatApp {
-    JTextField outgoing;
-    PrintWriter writer;
+    static JTextField outgoing;
+    static PrintWriter writer;
     Socket socket;
 
     public void go() {
@@ -38,7 +38,7 @@ public class SimpleChatApp {
         }
     }
 
-    public class SendButtonListener implements ActionListener {
+    public static class SendButtonListener implements ActionListener {
 
 
         @Override

@@ -6,7 +6,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.whowantstobemillionaire.RegPlayerController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.whowantstobemillionaire.controllers.RegPlayerController">
    <children>
       <Button fx:id="playBtn" layoutX="305.0" layoutY="255.0" mnemonicParsing="false" onAction="#play" text="Play" />
       <Label layoutX="258.0" layoutY="72.0" text="Cine vrea sa fie milionar?" />

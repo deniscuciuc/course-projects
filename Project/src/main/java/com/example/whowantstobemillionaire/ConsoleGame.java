@@ -2,6 +2,7 @@ package com.example.whowantstobemillionaire;
 
 import com.example.whowantstobemillionaire.help.FiftyFiftyHelp;
 import com.example.whowantstobemillionaire.help.HelpAnswer;
+import com.example.whowantstobemillionaire.help.HelpOption;
 import com.example.whowantstobemillionaire.levels.Levels;
 import com.example.whowantstobemillionaire.levels.Question;
 
@@ -9,43 +10,38 @@ import java.util.Scanner;
 
 public class ConsoleGame {
     public void launchGame() {
-        int currentLevel = 1, currentScore = 0;
-        Levels questionsAndAnswers = new Levels();
-        Question currentLevelQuestion;
-        HelpAnswer helpAnswer = new HelpAnswer();
-        FiftyFiftyHelp fiftyFiftyHelp = new FiftyFiftyHelp();
+        int currentLevel = 1, score = 0;
+        boolean gameOn = true;
 
-        Scanner answerObj = new Scanner(System.in);
+        Levels currentQuestionLevel = new Levels();
+        Question currentQuestionObj;
+
+        Scanner userAnswerObj = new Scanner(System.in);
         String userAnswer;
 
-        System.out.println("=== Cine vrea sa fie milionar? ===");
-        while (currentLevel <= 5) {
-            currentLevelQuestion  = questionsAndAnswers.getQuestionByLevel(currentLevel);
-            questionsAndAnswers.printLevel(currentLevelQuestion, currentLevel);
+        System.out.println("Cine vrea sa fie millionar?");
+        while (gameOn) {
+            currentQuestionObj = currentQuestionLevel.getQuestionByLevel(currentLevel);
+            currentQuestionLevel.printLevel(currentQuestionObj, currentLevel);
 
-            System.out.print("Raspunsul tau este: ");
-            userAnswer = answerObj.nextLine();
-            if (helpAnswer.verifyAnswer(userAnswer)) {
-                switch (userAnswer) {
-                    case "A":
-                        fiftyFiftyHelp.printAnswers(fiftyFiftyHelp.getHelpAnswers(currentLevelQuestion));
-                    case "P":
+            System.out.println("Raspunsul tau este: ");
+            userAnswer = userAnswerObj.nextLine();
 
-                }
-            } else if (currentLevelQuestion.verifyAnswer(currentLevelQuestion, userAnswer)) {
-                currentScore += currentLevelQuestion.getScore();
-                System.out.println("Raspuns corect! (◕‿◕) Scorul curent: " + currentScore);
+
+
+            if (currentQuestionObj.verifyAnswer(currentQuestionObj, userAnswer)) {
+                currentLevel++;
+                score += currentQuestionObj.getScore();
+                System.out.println("Raspuns corect! Scorul curent: " + score);
             } else {
-                System.out.println("Raspuns gresit! (￢_￢)  Scorul acumulat: " + currentScore);
-                questionsAndAnswers = null;
-                currentLevelQuestion = null;
-                answerObj.close();
-                currentLevel = 1;
-                return;
+                System.out.println("Raspuns incorect! Ati pierdut jocul");
+                System.out.println("Scorul acumulat: " + score);
+                gameOn = false;
             }
-            currentLevel++;
+
+            if (currentLevel >= 5) {
+                gameOn = false;
+            }
         }
-        System.out.println();
-        System.out.println("Felicitări! Ați câștigat jocul.");
     }
 }

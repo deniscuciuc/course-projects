@@ -9,9 +9,9 @@ import javafx.stage.Stage;
 
 import java.util.Objects;
 
-public class WhoWantsToBeMillionaireApp extends Application {
+public class WhoWantsToBeMillionaireApp {
 
-    @Override
+    /*@Override
     public void start(Stage stage) throws Exception {
         try {
             Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("regPlayer.fxml")));
@@ -22,12 +22,12 @@ public class WhoWantsToBeMillionaireApp extends Application {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
+    }*/
 
     public static void main(String[] args) {
-        launch();
+       // launch();
 
-       /*ConsoleGame consoleGame = new ConsoleGame();
-       consoleGame.launchGame();*/
+       ConsoleGame consoleGame = new ConsoleGame();
+       consoleGame.launchGame();
     }
 }

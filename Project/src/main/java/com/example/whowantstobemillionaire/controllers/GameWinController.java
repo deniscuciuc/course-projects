@@ -1,4 +1,4 @@
-package com.example.whowantstobemillionaire;
+package com.example.whowantstobemillionaire.controllers;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

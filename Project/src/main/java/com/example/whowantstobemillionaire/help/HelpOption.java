@@ -1,5 +1,6 @@
 package com.example.whowantstobemillionaire.help;
 
+import com.example.whowantstobemillionaire.help.HelpAnswer;
 import com.example.whowantstobemillionaire.levels.Question;
 
 import java.util.ArrayList;
