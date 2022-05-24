@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link th:href="@{/css/main.css}" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+        
+        h1 {
+            padding-top: 50px;
+        }
+        
+        .journal {
+            margin-top: 50px;
+            min-width: auto;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+            border-color: black;
+            border-style: ridge
+        }
+        
+        .journal li {
+            margin-left: 5%;
+        }
+    </style>
+    <title>Spring Boot Journal</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Spring Boot Journal</h1>
+        <div th:each="entry,status : ${journal}" class="journal">
+            <li th:attr="class=${status.odd}?'timeline-inverted':''">
+                <div class="timeline-panel">
+                    <div class="tl-heading">
+                        <h4><span th:text="${entry.title}">TITLE</span></h4>
+                        <p><small class="text-muted">
+                            <span th:text="${entry.createdAsShort}">CREATED</span></small></p>
+                    </div>
+                    <div class="tl-body">
+                        <p><span th:text="${entry.summary}">SUMMARY</span></p>
+                    </div>
+                </div>
+            </li>
+        </div>
+    </div>
+
+</body>
+
+</html>
