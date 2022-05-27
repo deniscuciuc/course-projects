@@ -25,7 +25,7 @@ public class Main {
         secondCharacter = null;
         thirdCharacter = null;
 
-        Character testReader = (Character) firstCharacter.readObjectFromFile("MyGame.ser");
+        Character testReader = firstCharacter.readObjectFromFile("MyGame.ser");
         System.out.println(testReader);
 
 

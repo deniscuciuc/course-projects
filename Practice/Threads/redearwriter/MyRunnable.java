@@ -1,4 +1,4 @@
-package test;
+package redearwriter;
 
 public class MyRunnable implements Runnable {
     @Override
