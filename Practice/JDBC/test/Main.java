@@ -3,22 +3,15 @@ package test;
 import java.sql.*;
 
 public class Main {
-    /*  Java Database Connectivity with 5 Steps
-        Register the Driver class
-        Create connection
-        Create statement
-        Execute queries
-        Close connection
-    */
     public static void main(String[] args) {
             try {
                 Class.forName("com.mysql.jdbc.Driver").newInstance();
-                Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/taskmanager", "root", "root");
+                Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/company", "root", "677789Devomatgw!");
                 Statement statement = connection.createStatement();
-                ResultSet executeQuery = statement.executeQuery("select * from users");
+                ResultSet executeQuery = statement.executeQuery("select * from emp");
 
                 while (executeQuery.next()) {
-                    System.out.println(executeQuery.getInt(1) + " " + executeQuery.getString(2));
+                    System.out.println(executeQuery.getInt(1) + " " + executeQuery.getString(2) + " " + executeQuery.getInt(3));
                 }
                 connection.close();
             } catch (ClassNotFoundException e) {
